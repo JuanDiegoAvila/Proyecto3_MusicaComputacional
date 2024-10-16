@@ -13,6 +13,7 @@ transition_matrix = [
     [0.2, 0.2, 0.2, 0.3, 0.1]
 ]
 
+
 # Generate a melody using the Markov chain
 def generate_melody(transition_matrix, num_notes):
     melody = []
